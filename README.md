@@ -25,14 +25,14 @@ You can install it locally:
 
 ```
 yarn add -D @solid-soda/tsn
-yarn @solid-soda/tsn
+yarn tsn
 ```
 
 or, if you prefer `npm`:
 
 ```
 npm i --save-dev @solid-soda/tsn
-npm run @solid-soda/tsn
+npm run tsn
 ```
 
 ### No-install
@@ -54,5 +54,5 @@ npx @solid-soda/tsn
 If you want to pass custom `tsconfig.json` to script, you can easily do it with arguments:
 
 ```
-yarn @solid-soda/tsn tsconfig.custom.json
+yarn tsn tsconfig.custom.json
 ```
