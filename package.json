@@ -1,5 +1,5 @@
 {
-  "name": "ts-to-node",
+  "name": "@solid-soda/tsn",
   "version": "1.0.1",
   "main": "lib/index.js",
   "repository": "git@github.com:solid-soda/ts-to-node.git",
@@ -10,7 +10,7 @@
     "gulp": "^4.0.2",
     "gulp-typescript": "^6.0.0-alpha.1",
     "through2": "^3.0.1",
-    "typescript": "~3.7"
+    "typescript": "^3.7"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
