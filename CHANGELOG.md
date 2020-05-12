@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.1](https://github.com/solid-soda/ts-to-node/compare/v1.2.0...v1.2.1) (2020-05-12)
+
+### Bug Fixes
+
+- fix some typos ([8bbe730](https://github.com/solid-soda/ts-to-node/commit/8bbe730d4b62f346435ff1a9f60cdc56a7bd6e98))
+
 ## [1.2.0](https://github.com/solid-soda/ts-to-node/compare/v1.1.1...v1.2.0) (2020-05-12)
 
 ### Features
