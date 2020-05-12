@@ -1,6 +1,6 @@
 const { compile } = require('../lib/compile');
-const { gegTsConfigPath } = require('../lib/utils');
+const { getTsConfigPath } = require('../lib/utils');
 
-let tsConfigPath = gegTsConfigPath(process.argv);
+const tsConfigPath = getTsConfigPath(process.argv);
 
 compile(tsConfigPath)();
