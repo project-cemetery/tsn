@@ -56,3 +56,11 @@ If you want to pass custom `tsconfig.json` to script, you can easily do it with 
 ```
 yarn tsn tsconfig.custom.json
 ```
+
+### Runtime usage
+
+If you using `ts-node` and want check code with absolute imports without compilation, you can use `runtime`-helper.
+
+```
+ts-node --project tsconfig.json -r @solid-soda/tsn YOUR_CODE.ts
+```
