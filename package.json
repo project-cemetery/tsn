@@ -10,6 +10,7 @@
     "gulp": "^4.0.2",
     "gulp-typescript": "^6.0.0-alpha.1",
     "through2": "^3.0.1",
+    "tsconfig-paths": "^3.9.0",
     "typescript": "^3.7"
   },
   "devDependencies": {

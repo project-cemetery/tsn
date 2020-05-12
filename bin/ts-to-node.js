@@ -1,12 +1,6 @@
-const { resolve } = require('path');
+const { compile } = require('../lib/compile');
+const { gegTsConfigPath } = require('../lib/utils');
 
-const { tsToNode } = require('../lib');
+let tsConfigPath = gegTsConfigPath(process.argv);
 
-let tsConfigPath = resolve(process.cwd(), 'tsconfig.json');
-
-const arg = process.argv[process.argv.length - 1];
-if (arg.includes('.json')) {
-  tsConfigPath = resolve(process.cwd(), arg);
-}
-
-tsToNode(tsConfigPath)();
+compile(tsConfigPath)();

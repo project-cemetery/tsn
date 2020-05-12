@@ -106,6 +106,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "npm:3.0.1"
       ],
       [
+        "tsconfig-paths",
+        "npm:3.9.0"
+      ],
+      [
         "typescript",
         "patch:typescript@npm%3A3.8.3#builtin<compat/typescript>::version=3.8.3&hash=8cac75"
       ]
@@ -136,6 +140,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:2.0.5"],
             ["standard-version", "npm:7.1.0"],
             ["through2", "npm:3.0.1"],
+            ["tsconfig-paths", "npm:3.9.0"],
             ["typescript", "patch:typescript@npm%3A3.8.3#builtin<compat/typescript>::version=3.8.3&hash=8cac75"]
           ],
           "linkType": "SOFT",
@@ -508,6 +513,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:2.0.5"],
             ["standard-version", "npm:7.1.0"],
             ["through2", "npm:3.0.1"],
+            ["tsconfig-paths", "npm:3.9.0"],
             ["typescript", "patch:typescript@npm%3A3.8.3#builtin<compat/typescript>::version=3.8.3&hash=8cac75"]
           ],
           "linkType": "SOFT",
@@ -518,6 +524,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-color-name-npm-1.1.1-00b0925070-3.zip/node_modules/@types/color-name/",
           "packageDependencies": [
             ["@types/color-name", "npm:1.1.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/json5", [
+        ["npm:0.0.29", {
+          "packageLocation": "./.yarn/cache/@types-json5-npm-0.0.29-f63a7916bd-3.zip/node_modules/@types/json5/",
+          "packageDependencies": [
+            ["@types/json5", "npm:0.0.29"]
           ],
           "linkType": "HARD",
         }]
@@ -4687,6 +4702,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["json5", [
+        ["npm:1.0.1", {
+          "packageLocation": "./.yarn/cache/json5-npm-1.0.1-647fc8794b-3.zip/node_modules/json5/",
+          "packageDependencies": [
+            ["json5", "npm:1.0.1"],
+            ["minimist", "npm:1.2.5"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["jsonfile", [
         ["npm:4.0.0", {
           "packageLocation": "./.yarn/cache/jsonfile-npm-4.0.0-10ce3aea15-3.zip/node_modules/jsonfile/",
@@ -7822,6 +7847,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/trim-off-newlines-npm-1.0.1-1a87bef78d-3.zip/node_modules/trim-off-newlines/",
           "packageDependencies": [
             ["trim-off-newlines", "npm:1.0.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["tsconfig-paths", [
+        ["npm:3.9.0", {
+          "packageLocation": "./.yarn/cache/tsconfig-paths-npm-3.9.0-92dcbdee37-3.zip/node_modules/tsconfig-paths/",
+          "packageDependencies": [
+            ["tsconfig-paths", "npm:3.9.0"],
+            ["@types/json5", "npm:0.0.29"],
+            ["json5", "npm:1.0.1"],
+            ["minimist", "npm:1.2.5"],
+            ["strip-bom", "npm:3.0.0"]
           ],
           "linkType": "HARD",
         }]
