@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/solid-soda/ts-to-node/compare/v1.1.1...v1.2.0) (2020-05-12)
+
+### Features
+
+- add runtime helper for dev env ([4e77f6f](https://github.com/solid-soda/ts-to-node/commit/4e77f6f79ace2663d8071ee3efc8db02d206ae4b))
+
 ### [1.1.1](https://github.com/solid-soda/ts-to-node/compare/v1.1.0...v1.1.1) (2020-05-11)
 
 ### Bug Fixes
