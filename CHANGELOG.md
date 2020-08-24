@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/solid-soda/ts-to-node/compare/v1.2.3...v1.3.0) (2020-08-24)
+
+### Features
+
+- support es imports ([fb1af72](https://github.com/solid-soda/ts-to-node/commit/fb1af721bff0ca8741545a85e64ccd8a6b6b4fe3))
+
 ### [1.2.3](https://github.com/solid-soda/ts-to-node/compare/v1.2.2...v1.2.3) (2020-05-12)
 
 ### Bug Fixes
